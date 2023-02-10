@@ -1,0 +1,43 @@
+[0.587s] Invoking command in '/home/mwq/abs_news/src/suber_pkg': PYTHONPATH=/home/mwq/abs_news/build/suber_pkg/prefix_override:/home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suber_pkg build --build-base /home/mwq/abs_news/build/suber_pkg/build install --record /home/mwq/abs_news/build/suber_pkg/install.log --install-scripts $base/lib/suber_pkg --single-version-externally-managed
+[0.695s] running egg_info
+[0.695s] creating ../../build/suber_pkg/suber_pkg.egg-info
+[0.695s] writing ../../build/suber_pkg/suber_pkg.egg-info/PKG-INFO
+[0.695s] writing dependency_links to ../../build/suber_pkg/suber_pkg.egg-info/dependency_links.txt
+[0.695s] writing entry points to ../../build/suber_pkg/suber_pkg.egg-info/entry_points.txt
+[0.695s] writing requirements to ../../build/suber_pkg/suber_pkg.egg-info/requires.txt
+[0.695s] writing top-level names to ../../build/suber_pkg/suber_pkg.egg-info/top_level.txt
+[0.696s] writing manifest file '../../build/suber_pkg/suber_pkg.egg-info/SOURCES.txt'
+[0.714s] reading manifest file '../../build/suber_pkg/suber_pkg.egg-info/SOURCES.txt'
+[0.715s] writing manifest file '../../build/suber_pkg/suber_pkg.egg-info/SOURCES.txt'
+[0.715s] running build
+[0.715s] running build_py
+[0.715s] creating /home/mwq/abs_news/build/suber_pkg/build
+[0.715s] creating /home/mwq/abs_news/build/suber_pkg/build/lib
+[0.715s] creating /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+[0.715s] copying suber_pkg/__init__.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+[0.715s] copying suber_pkg/outmatrix_suber.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+[0.715s] copying suber_pkg/torun.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+[0.715s] copying suber_pkg/numpy_learning.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+[0.716s] running install
+[0.716s] running install_lib
+[0.716s] creating /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+[0.716s] copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/__init__.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+[0.716s] copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/outmatrix_suber.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+[0.717s] copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/torun.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+[0.717s] copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/numpy_learning.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+[0.717s] byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/__init__.py to __init__.cpython-38.pyc
+[0.717s] byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/outmatrix_suber.py to outmatrix_suber.cpython-38.pyc
+[0.718s] byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/torun.py to torun.cpython-38.pyc
+[0.718s] byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/numpy_learning.py to numpy_learning.cpython-38.pyc
+[0.718s] running install_data
+[0.719s] creating /home/mwq/abs_news/install/suber_pkg/share/ament_index
+[0.719s] creating /home/mwq/abs_news/install/suber_pkg/share/ament_index/resource_index
+[0.719s] creating /home/mwq/abs_news/install/suber_pkg/share/ament_index/resource_index/packages
+[0.719s] copying resource/suber_pkg -> /home/mwq/abs_news/install/suber_pkg/share/ament_index/resource_index/packages
+[0.719s] copying package.xml -> /home/mwq/abs_news/install/suber_pkg/share/suber_pkg
+[0.719s] running install_egg_info
+[0.720s] Copying ../../build/suber_pkg/suber_pkg.egg-info to /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg-0.0.0-py3.8.egg-info
+[0.720s] running install_scripts
+[0.731s] Installing outmatrix_suber script to /home/mwq/abs_news/install/suber_pkg/lib/suber_pkg
+[0.731s] writing list of installed files to '/home/mwq/abs_news/build/suber_pkg/install.log'
+[0.751s] Invoked command in '/home/mwq/abs_news/src/suber_pkg' returned '0': PYTHONPATH=/home/mwq/abs_news/build/suber_pkg/prefix_override:/home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suber_pkg build --build-base /home/mwq/abs_news/build/suber_pkg/build install --record /home/mwq/abs_news/build/suber_pkg/install.log --install-scripts $base/lib/suber_pkg --single-version-externally-managed

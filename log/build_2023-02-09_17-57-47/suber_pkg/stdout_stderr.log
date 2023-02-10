@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/suber_pkg/suber_pkg.egg-info
+writing ../../build/suber_pkg/suber_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/suber_pkg/suber_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/suber_pkg/suber_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/suber_pkg/suber_pkg.egg-info/requires.txt
+writing top-level names to ../../build/suber_pkg/suber_pkg.egg-info/top_level.txt
+writing manifest file '../../build/suber_pkg/suber_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/suber_pkg/suber_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/suber_pkg/suber_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mwq/abs_news/build/suber_pkg/build
+creating /home/mwq/abs_news/build/suber_pkg/build/lib
+creating /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+copying suber_pkg/__init__.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+copying suber_pkg/outmatrix_suber.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+copying suber_pkg/torun.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+copying suber_pkg/numpy_learning.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+running install
+running install_lib
+creating /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/__init__.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/outmatrix_suber.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/torun.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/numpy_learning.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/outmatrix_suber.py to outmatrix_suber.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/torun.py to torun.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/numpy_learning.py to numpy_learning.cpython-38.pyc
+running install_data
+creating /home/mwq/abs_news/install/suber_pkg/share/ament_index
+creating /home/mwq/abs_news/install/suber_pkg/share/ament_index/resource_index
+creating /home/mwq/abs_news/install/suber_pkg/share/ament_index/resource_index/packages
+copying resource/suber_pkg -> /home/mwq/abs_news/install/suber_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/mwq/abs_news/install/suber_pkg/share/suber_pkg
+running install_egg_info
+Copying ../../build/suber_pkg/suber_pkg.egg-info to /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing outmatrix_suber script to /home/mwq/abs_news/install/suber_pkg/lib/suber_pkg
+writing list of installed files to '/home/mwq/abs_news/build/suber_pkg/install.log'

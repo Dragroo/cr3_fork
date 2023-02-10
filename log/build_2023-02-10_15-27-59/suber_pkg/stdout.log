@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/suber_pkg/suber_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/suber_pkg/suber_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/suber_pkg/suber_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/suber_pkg/suber_pkg.egg-info/requires.txt
+writing top-level names to ../../build/suber_pkg/suber_pkg.egg-info/top_level.txt
+reading manifest file '../../build/suber_pkg/suber_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/suber_pkg/suber_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying suber_pkg/out_suber.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+copying suber_pkg/uv_suber.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+copying suber_pkg/numpy_learning.py -> /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg
+running install
+running install_lib
+copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/out_suber.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/uv_suber.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+copying /home/mwq/abs_news/build/suber_pkg/build/lib/suber_pkg/numpy_learning.py -> /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg
+byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/out_suber.py to out_suber.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/uv_suber.py to uv_suber.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg/numpy_learning.py to numpy_learning.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/suber_pkg/suber_pkg.egg-info to /home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages/suber_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing outmatrix_suber script to /home/mwq/abs_news/install/suber_pkg/lib/suber_pkg
+Installing uv_suber script to /home/mwq/abs_news/install/suber_pkg/lib/suber_pkg
+writing list of installed files to '/home/mwq/abs_news/build/suber_pkg/install.log'

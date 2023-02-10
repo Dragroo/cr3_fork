@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/SetArmOrientation.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct SetArmOrientation_Request {
+      int64 lorr;
+
+      int64 uord;
+
+      int64 forn;
+
+      int64 config6;
+    };
+    struct SetArmOrientation_Response {
+      int64 res;
+    };
+  };
+};

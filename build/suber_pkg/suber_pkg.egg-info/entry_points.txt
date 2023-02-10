@@ -1,0 +1,4 @@
+[console_scripts]
+outmatrix_suber = suber_pkg.outmatrix_suber:main
+uv_suber = suber_pkg.uv_suber:main
+

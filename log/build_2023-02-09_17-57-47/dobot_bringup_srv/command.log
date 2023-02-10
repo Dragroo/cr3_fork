@@ -1,0 +1,6 @@
+Invoking command in '/home/mwq/abs_news/build/dobot_bringup_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mwq/abs_news/src/dobot_bringup_srv -DCMAKE_INSTALL_PREFIX=/home/mwq/abs_news/install/dobot_bringup_srv
+Invoked command in '/home/mwq/abs_news/build/dobot_bringup_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mwq/abs_news/src/dobot_bringup_srv -DCMAKE_INSTALL_PREFIX=/home/mwq/abs_news/install/dobot_bringup_srv
+Invoking command in '/home/mwq/abs_news/build/dobot_bringup_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mwq/abs_news/build/dobot_bringup_srv -- -j20 -l20
+Invoked command in '/home/mwq/abs_news/build/dobot_bringup_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mwq/abs_news/build/dobot_bringup_srv -- -j20 -l20
+Invoking command in '/home/mwq/abs_news/build/dobot_bringup_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mwq/abs_news/build/dobot_bringup_srv
+Invoked command in '/home/mwq/abs_news/build/dobot_bringup_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mwq/abs_news/build/dobot_bringup_srv

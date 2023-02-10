@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/MoveJog.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct MoveJog_Request {
+      string axisid;
+    };
+    struct MoveJog_Response {
+      int32 res;
+    };
+  };
+};

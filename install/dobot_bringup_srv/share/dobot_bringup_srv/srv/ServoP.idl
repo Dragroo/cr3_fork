@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/ServoP.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct ServoP_Request {
+      double x;
+
+      double y;
+
+      double z;
+
+      double a;
+
+      double b;
+
+      double c;
+    };
+    struct ServoP_Response {
+      int32 res;
+    };
+  };
+};

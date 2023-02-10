@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/puber_pkg/puber_pkg.egg-info/PKG-INFO
+../../build/puber_pkg/puber_pkg.egg-info/SOURCES.txt
+../../build/puber_pkg/puber_pkg.egg-info/dependency_links.txt
+../../build/puber_pkg/puber_pkg.egg-info/entry_points.txt
+../../build/puber_pkg/puber_pkg.egg-info/requires.txt
+../../build/puber_pkg/puber_pkg.egg-info/top_level.txt
+../../build/puber_pkg/puber_pkg.egg-info/zip-safe
+puber_pkg/__init__.py
+puber_pkg/outmatrix_puber.py
+puber_pkg/uv_puber.py
+resource/puber_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

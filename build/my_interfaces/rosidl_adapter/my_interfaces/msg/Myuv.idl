@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_interfaces/msg/Myuv.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module my_interfaces {
+  module msg {
+    struct Myuv {
+      builtin_interfaces::msg::Time stamp;
+
+      double u;
+
+      double v;
+    };
+  };
+};

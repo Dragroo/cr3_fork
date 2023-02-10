@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/GetHoldRegs.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct GetHoldRegs_Request {
+      int32 id;
+
+      int32 addr;
+
+      int32 count;
+
+      int32 type;
+    };
+    struct GetHoldRegs_Response {
+      sequence<int32> regs;
+    };
+  };
+};

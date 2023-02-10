@@ -1,0 +1,6 @@
+source;share/cr3_scout_with_srvs/hook/pythonpath.ps1
+source;share/cr3_scout_with_srvs/hook/pythonpath.dsv
+source;share/cr3_scout_with_srvs/hook/pythonpath.sh
+source;share/cr3_scout_with_srvs/hook/ament_prefix_path.ps1
+source;share/cr3_scout_with_srvs/hook/ament_prefix_path.dsv
+source;share/cr3_scout_with_srvs/hook/ament_prefix_path.sh

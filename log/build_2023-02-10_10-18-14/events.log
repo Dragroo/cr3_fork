@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.000085] (-) JobUnselected: {'identifier': 'cr3_scout_with_srvs'}
+[0.001461] (-) JobUnselected: {'identifier': 'dobot_bringup'}
+[0.001483] (-) JobUnselected: {'identifier': 'dobot_bringup_msg'}
+[0.001492] (-) JobUnselected: {'identifier': 'dobot_bringup_srv'}
+[0.001499] (-) JobUnselected: {'identifier': 'puber_pkg'}
+[0.001505] (-) JobUnselected: {'identifier': 'suber_pkg'}
+[0.001513] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.001522] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.006741] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.006970] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[0.007405] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mwq/abs_news/build/my_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/mwq/abs_news/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'mwq'), ('all_proxy', 'socks://127.0.0.1:1080/'), ('SSH_AGENT_PID', '1892'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mwq'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1670'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=76805ea5931b98b9af224d0c63e59aa1'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mwq'), ('ALL_PROXY', 'socks://127.0.0.1:1080/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:53100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'mwq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mwq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu20:@/tmp/.ICE-unix/1930,unix/ubuntu20:/tmp/.ICE-unix/1930'), ('INVOCATION_ID', 'f41ec64bf0004a54901037121c445bbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f12b78_5d4a_4620_8023_207b2c6c3ab3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mwq/abs_news/build/my_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=76805ea5931b98b9af224d0c63e59aa1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.022753] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.036023] (my_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.036138] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099630] (-) TimerEvent: {}
+[0.122457] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.123665] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.125386] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.193814] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199733] (-) TimerEvent: {}
+[0.206521] (my_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.226039] (my_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.292980] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.299835] (-) TimerEvent: {}
+[0.346399] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.352743] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.369216] (my_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.369418] (my_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.388884] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.388975] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.389017] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.399960] (-) TimerEvent: {}
+[0.405416] (my_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.410584] (my_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.411650] (my_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.411935] (my_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.413987] (my_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.436985] (my_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.439286] (my_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/mwq/abs_news/build/my_interfaces\n'}
+[0.454189] (my_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.459615] (my_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.500114] (-) TimerEvent: {}
+[0.591518] (my_interfaces) StdoutLine: {'line': b'[  5%] Built target my_interfaces__cpp\n'}
+[0.594296] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.597257] (my_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.597427] (my_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.597506] (my_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.600218] (-) TimerEvent: {}
+[0.601782] (my_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/outpose__functions.c.o\x1b[0m\n'}
+[0.603873] (my_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/myuv__functions.c.o\x1b[0m\n'}
+[0.630761] (my_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[0.652876] (my_interfaces) StdoutLine: {'line': b'[ 20%] Built target my_interfaces__rosidl_generator_c\n'}
+[0.661613] (my_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.661774] (my_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.700308] (-) TimerEvent: {}
+[0.718333] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.725927] (my_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/myuv__type_support.cpp.o\x1b[0m\n'}
+[0.726071] (my_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/outpose__type_support.cpp.o\x1b[0m\n'}
+[0.726419] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.733581] (my_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/outpose__type_support.cpp.o\x1b[0m\n'}
+[0.733755] (my_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/myuv__type_support.cpp.o\x1b[0m\n'}
+[0.736820] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.749240] (my_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/myuv__type_support.cpp.o\x1b[0m\n'}
+[0.749431] (my_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/outpose__type_support.cpp.o\x1b[0m\n'}
+[0.783278] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.790830] (my_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/myuv__type_support.cpp.o\x1b[0m\n'}
+[0.791664] (my_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/outpose__type_support.cpp.o\x1b[0m\n'}
+[0.799307] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.800384] (-) TimerEvent: {}
+[0.810040] (my_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/myuv__type_support.c.o\x1b[0m\n'}
+[0.810229] (my_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/outpose__type_support.c.o\x1b[0m\n'}
+[0.815927] (my_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[0.839296] (my_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[0.852175] (my_interfaces) StdoutLine: {'line': b'[ 56%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[0.866237] (my_interfaces) StdoutLine: {'line': b'[ 56%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.868453] (my_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[0.876192] (my_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[0.891415] (my_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[0.900601] (-) TimerEvent: {}
+[0.910907] (my_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.970778] (my_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.000726] (-) TimerEvent: {}
+[1.017895] (my_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.027315] (my_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.100855] (-) TimerEvent: {}
+[1.157611] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.164730] (my_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/outpose__type_support_c.cpp.o\x1b[0m\n'}
+[1.164897] (my_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/myuv__type_support_c.cpp.o\x1b[0m\n'}
+[1.201041] (-) TimerEvent: {}
+[1.301341] (-) TimerEvent: {}
+[1.331773] (my_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.378363] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.389124] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces\n'}
+[1.399327] (my_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.401450] (-) TimerEvent: {}
+[1.501781] (-) TimerEvent: {}
+[1.602044] (-) TimerEvent: {}
+[1.631936] (my_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_interfaces__py\n'}
+[1.637903] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__python\x1b[0m\n'}
+[1.646711] (my_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__python.dir/rosidl_generator_py/my_interfaces/msg/_outpose_s.c.o\x1b[0m\n'}
+[1.646875] (my_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__python.dir/rosidl_generator_py/my_interfaces/msg/_myuv_s.c.o\x1b[0m\n'}
+[1.693308] (my_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__python.so\x1b[0m\n'}
+[1.702227] (-) TimerEvent: {}
+[1.715400] (my_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_interfaces__python\n'}
+[1.721375] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.721531] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.721600] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.728998] (my_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.729171] (my_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.730975] (my_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.772763] (my_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.772937] (my_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.773184] (my_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.791795] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.792911] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.802355] (-) TimerEvent: {}
+[1.806413] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.813709] (my_interfaces) CommandEnded: {'returncode': 0}
+[1.841424] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[1.847319] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mwq/abs_news/build/my_interfaces'], 'cwd': '/home/mwq/abs_news/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'mwq'), ('all_proxy', 'socks://127.0.0.1:1080/'), ('SSH_AGENT_PID', '1892'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mwq'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1670'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=76805ea5931b98b9af224d0c63e59aa1'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mwq'), ('ALL_PROXY', 'socks://127.0.0.1:1080/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:53100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'mwq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mwq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu20:@/tmp/.ICE-unix/1930,unix/ubuntu20:/tmp/.ICE-unix/1930'), ('INVOCATION_ID', 'f41ec64bf0004a54901037121c445bbe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f12b78_5d4a_4620_8023_207b2c6c3ab3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.429'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mwq/abs_news/build/my_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=76805ea5931b98b9af224d0c63e59aa1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.851889] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.852031] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[1.852526] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces\n'}
+[1.852638] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg\n'}
+[1.852705] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/outpose.h\n'}
+[1.853058] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/myuv.h\n'}
+[1.853150] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[1.853218] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__functions.h\n'}
+[1.853374] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__struct.h\n'}
+[1.853479] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__functions.c\n'}
+[1.853576] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__type_support.h\n'}
+[1.853639] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__functions.h\n'}
+[1.853699] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__functions.c\n'}
+[1.853758] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__type_support.h\n'}
+[1.853818] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__struct.h\n'}
+[1.853878] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.853953] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[1.854013] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[1.854090] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[1.854151] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""\n'}
+[1.854211] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces\n'}
+[1.854313] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg\n'}
+[1.854397] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.854470] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[1.854543] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__rosidl_typesupport_fastrtps_c.h\n'}
+[1.854603] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.854671] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.854738] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.854798] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces\n'}
+[1.854895] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg\n'}
+[1.854965] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[1.855075] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.855145] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.855214] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/dds_fastrtps\n'}
+[1.855320] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.855421] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.855576] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.855647] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces\n'}
+[1.855808] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg\n'}
+[1.855892] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[1.855969] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__type_support.c\n'}
+[1.856039] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__type_support.c\n'}
+[1.856107] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__rosidl_typesupport_introspection_c.h\n'}
+[1.856167] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__rosidl_typesupport_introspection_c.h\n'}
+[1.856227] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.856296] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.856364] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.856424] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[1.856498] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[1.856558] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces\n'}
+[1.856684] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg\n'}
+[1.856813] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/outpose.hpp\n'}
+[1.856890] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[1.856965] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__struct.hpp\n'}
+[1.857040] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__struct.hpp\n'}
+[1.857113] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__traits.hpp\n'}
+[1.857181] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__builder.hpp\n'}
+[1.857244] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__builder.hpp\n'}
+[1.857303] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__traits.hpp\n'}
+[1.857362] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/myuv.hpp\n'}
+[1.857431] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces\n'}
+[1.857490] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg\n'}
+[1.857559] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[1.857651] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__type_support.cpp\n'}
+[1.857721] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__type_support.cpp\n'}
+[1.857796] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/myuv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.857866] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/include/my_interfaces/msg/detail/outpose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.857977] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.858147] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.858240] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.858378] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[1.858465] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[1.858536] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[1.858596] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/__init__.py\n'}
+[1.876089] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/__init__.py'...\n"}
+[1.878286] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg\n'}
+[1.878420] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/__init__.py\n'}
+[1.878492] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_myuv_s.c\n'}
+[1.878561] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_outpose.py\n'}
+[1.878623] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_outpose_s.c\n'}
+[1.878685] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_myuv.py\n'}
+[1.878769] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.878854] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[1.879107] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.879615] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[1.879766] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.879847] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[1.879922] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__python.so\n'}
+[1.880065] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mwq/abs_news/install/my_interfaces/lib/libmy_interfaces__python.so" to ""\n'}
+[1.880156] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/msg/Outpose.idl\n'}
+[1.880224] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/msg/Myuv.idl\n'}
+[1.880323] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/msg/Outpose.msg\n'}
+[1.880398] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/msg/Myuv.msg\n'}
+[1.880493] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[1.880822] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[1.880896] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[1.880955] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.881024] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[1.881094] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[1.881168] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[1.881250] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[1.881314] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[1.881373] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[1.881441] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[1.881510] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[1.881625] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport-noconfig.cmake].\n'}
+[1.881698] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.881865] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.882047] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[1.882123] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.882193] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.882294] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[1.882366] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.882444] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.886151] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.888842] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[1.888926] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.888998] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.889056] (my_interfaces) StdoutLine: {'line': b'-- Old export file "/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[1.889130] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.889172] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.889206] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.889257] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.889305] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.889335] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.889364] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.889393] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.889421] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.889448] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[1.889477] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[1.889506] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/mwq/abs_news/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[1.890872] (my_interfaces) CommandEnded: {'returncode': 0}
+[1.903045] (-) TimerEvent: {}
+[1.943042] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[1.943561] (-) EventReactorShutdown: {}

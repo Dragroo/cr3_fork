@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/SetObstacleAvoid.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct SetObstacleAvoid_Request {
+      int32 status;
+    };
+    struct SetObstacleAvoid_Response {
+      int32 res;
+    };
+  };
+};

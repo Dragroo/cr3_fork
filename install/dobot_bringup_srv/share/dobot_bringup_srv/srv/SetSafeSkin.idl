@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/SetSafeSkin.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct SetSafeSkin_Request {
+      int32 status;
+    };
+    struct SetSafeSkin_Response {
+      int32 res;
+    };
+  };
+};

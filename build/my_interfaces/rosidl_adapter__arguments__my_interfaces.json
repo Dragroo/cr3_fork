@@ -1,0 +1,7 @@
+{
+  "package_name": "my_interfaces",
+  "non_idl_tuples": [
+    "/home/mwq/abs_news/src/my_interfaces:msg/Outpose.msg",
+    "/home/mwq/abs_news/src/my_interfaces:msg/Myuv.msg"
+  ]
+}

@@ -1,0 +1,37 @@
+[0.579s] Invoking command in '/home/mwq/abs_news/src/puber_pkg': PYTHONPATH=/home/mwq/abs_news/build/puber_pkg/prefix_override:/home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/puber_pkg build --build-base /home/mwq/abs_news/build/puber_pkg/build install --record /home/mwq/abs_news/build/puber_pkg/install.log --install-scripts $base/lib/puber_pkg --single-version-externally-managed
+[0.684s] running egg_info
+[0.685s] creating ../../build/puber_pkg/puber_pkg.egg-info
+[0.685s] writing ../../build/puber_pkg/puber_pkg.egg-info/PKG-INFO
+[0.685s] writing dependency_links to ../../build/puber_pkg/puber_pkg.egg-info/dependency_links.txt
+[0.685s] writing entry points to ../../build/puber_pkg/puber_pkg.egg-info/entry_points.txt
+[0.685s] writing requirements to ../../build/puber_pkg/puber_pkg.egg-info/requires.txt
+[0.685s] writing top-level names to ../../build/puber_pkg/puber_pkg.egg-info/top_level.txt
+[0.689s] writing manifest file '../../build/puber_pkg/puber_pkg.egg-info/SOURCES.txt'
+[0.721s] reading manifest file '../../build/puber_pkg/puber_pkg.egg-info/SOURCES.txt'
+[0.722s] writing manifest file '../../build/puber_pkg/puber_pkg.egg-info/SOURCES.txt'
+[0.722s] running build
+[0.722s] running build_py
+[0.722s] creating /home/mwq/abs_news/build/puber_pkg/build
+[0.722s] creating /home/mwq/abs_news/build/puber_pkg/build/lib
+[0.723s] creating /home/mwq/abs_news/build/puber_pkg/build/lib/puber_pkg
+[0.723s] copying puber_pkg/__init__.py -> /home/mwq/abs_news/build/puber_pkg/build/lib/puber_pkg
+[0.723s] copying puber_pkg/outmatrix_puber.py -> /home/mwq/abs_news/build/puber_pkg/build/lib/puber_pkg
+[0.723s] running install
+[0.724s] running install_lib
+[0.724s] creating /home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages/puber_pkg
+[0.724s] copying /home/mwq/abs_news/build/puber_pkg/build/lib/puber_pkg/__init__.py -> /home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages/puber_pkg
+[0.724s] copying /home/mwq/abs_news/build/puber_pkg/build/lib/puber_pkg/outmatrix_puber.py -> /home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages/puber_pkg
+[0.725s] byte-compiling /home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages/puber_pkg/__init__.py to __init__.cpython-38.pyc
+[0.726s] byte-compiling /home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages/puber_pkg/outmatrix_puber.py to outmatrix_puber.cpython-38.pyc
+[0.726s] running install_data
+[0.727s] creating /home/mwq/abs_news/install/puber_pkg/share/ament_index
+[0.727s] creating /home/mwq/abs_news/install/puber_pkg/share/ament_index/resource_index
+[0.727s] creating /home/mwq/abs_news/install/puber_pkg/share/ament_index/resource_index/packages
+[0.727s] copying resource/puber_pkg -> /home/mwq/abs_news/install/puber_pkg/share/ament_index/resource_index/packages
+[0.728s] copying package.xml -> /home/mwq/abs_news/install/puber_pkg/share/puber_pkg
+[0.728s] running install_egg_info
+[0.729s] Copying ../../build/puber_pkg/puber_pkg.egg-info to /home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages/puber_pkg-0.0.0-py3.8.egg-info
+[0.729s] running install_scripts
+[0.746s] Installing outmatrix_puber script to /home/mwq/abs_news/install/puber_pkg/lib/puber_pkg
+[0.747s] writing list of installed files to '/home/mwq/abs_news/build/puber_pkg/install.log'
+[0.765s] Invoked command in '/home/mwq/abs_news/src/puber_pkg' returned '0': PYTHONPATH=/home/mwq/abs_news/build/puber_pkg/prefix_override:/home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/puber_pkg build --build-base /home/mwq/abs_news/build/puber_pkg/build install --record /home/mwq/abs_news/build/puber_pkg/install.log --install-scripts $base/lib/puber_pkg --single-version-externally-managed

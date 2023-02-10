@@ -1,0 +1,10 @@
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/install/strip.dir
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/install/local.dir
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/install.dir
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/list_install_components.dir
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/rebuild_cache.dir
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/edit_cache.dir
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/test.dir
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/dobot_bringup_uninstall.dir
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/cr5_bringup.dir
+/home/mwq/abs_news/build/dobot_bringup/CMakeFiles/uninstall.dir

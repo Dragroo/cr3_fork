@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/PayLoad.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct PayLoad_Request {
+      double weight;
+
+      double inertia;
+    };
+    struct PayLoad_Response {
+      int32 res;
+    };
+  };
+};

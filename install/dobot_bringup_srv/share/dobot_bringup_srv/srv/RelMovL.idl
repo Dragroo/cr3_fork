@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/RelMovL.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct RelMovL_Request {
+      double x;
+
+      double y;
+
+      double z;
+    };
+    struct RelMovL_Response {
+      int32 res;
+    };
+  };
+};

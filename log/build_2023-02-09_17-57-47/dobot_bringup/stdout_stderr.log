@@ -1,0 +1,207 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found dobot_bringup_msg: 0.0.0 (/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/cmake)
+-- Found dobot_bringup_srv: 0.0.0 (/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/cmake)
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/mwq/abs_news/src/dobot_bringup/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mwq/abs_news/build/dobot_bringup
+[35m[1mScanning dependencies of target cr5_bringup[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cr5_bringup.dir/src/cr5_robot.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cr5_bringup.dir/src/main.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cr5_bringup.dir/src/tcp_socket.cpp.o[0m
+In file included from [01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/cr5_robot.h:15[m[K,
+                 from [01m[K/home/mwq/abs_news/src/dobot_bringup/src/main.cpp:20[m[K:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:12:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [[01;35m[K-Wunknown-pragmas[m[K]
+   12 | #pragma clang diagnostic push
+      | 
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:14:[m[K [01;35m[Kwarning: [m[Kignoring #pragma ide diagnostic [[01;35m[K-Wunknown-pragmas[m[K]
+   14 | #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
+      | 
+In file included from [01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/cr5_robot.h:15[m[K,
+                 from [01m[K/home/mwq/abs_news/src/dobot_bringup/src/main.cpp:20[m[K:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:323:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [[01;35m[K-Wunknown-pragmas[m[K]
+  323 | #pragma clang diagnostic pop
+      | 
+In file included from [01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/cr5_robot.h:15[m[K,
+                 from [01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:23[m[K:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:12:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [[01;35m[K-Wunknown-pragmas[m[K]
+   12 | #pragma clang diagnostic push
+      | 
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:14:[m[K [01;35m[Kwarning: [m[Kignoring #pragma ide diagnostic [[01;35m[K-Wunknown-pragmas[m[K]
+   14 | #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
+      | 
+In file included from [01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/cr5_robot.h:15[m[K,
+                 from [01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:23[m[K:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:323:[m[K [01;35m[Kwarning: [m[Kignoring #pragma clang diagnostic [[01;35m[K-Wunknown-pragmas[m[K]
+  323 | #pragma clang diagnostic pop
+      | 
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:[m[K In member function ‘[01m[Kvoid CR5Commander::dashSendCmd(const char*, uint32_t)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:301:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klen[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  301 |     void dashSendCmd(const char*cmd, [01;35m[Kuint32_t len[m[K)
+      |                                      [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:[m[K In member function ‘[01m[Kvoid CR5Commander::realSendCmd(const char*, uint32_t)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:306:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klen[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  306 |     void realSendCmd(const char*cmd, [01;35m[Kuint32_t len[m[K)
+      |                                      [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:[m[K In member function ‘[01m[Kvoid CR5Commander::dashSendCmd(const char*, uint32_t)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:301:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klen[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  301 |     void dashSendCmd(const char*cmd, [01;35m[Kuint32_t len[m[K)
+      |                                      [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:[m[K In member function ‘[01m[Kvoid CR5Commander::realSendCmd(const char*, uint32_t)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/include/dobot_bringup/commander.h:306:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klen[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  306 |     void realSendCmd(const char*cmd, [01;35m[Kuint32_t len[m[K)
+      |                                      [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse CR5Robot::goalHandle(const GoalUUID&, std::shared_ptr<const control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:290:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  290 |                                                 [01;35m[Kstd::shared_ptr<const CR5FollowJoint::Goal> goal[m[K)
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse CR5Robot::cancelHandle(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:306:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Khandle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  306 | rclcpp_action::CancelResponse CR5Robot::cancelHandle([01;35m[Kconst std::shared_ptr<GoalHandleCR5FollowJoint> handle[m[K)
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::enableRobot(dobot_bringup_srv::srv::EnableRobot_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::EnableRobot_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:342:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  342 | bool CR5Robot::enableRobot([01;35m[Kconst dobot_bringup_srv::srv::EnableRobot::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::EnableRobot::Response::SharedPtr response)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::disableRobot(dobot_bringup_srv::srv::DisableRobot_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::DisableRobot_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:360:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  360 | bool CR5Robot::disableRobot([01;35m[Kconst dobot_bringup_srv::srv::DisableRobot::Request::SharedPtr request[m[K,
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::clearError(dobot_bringup_srv::srv::ClearError_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::ClearError_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:377:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  377 | bool CR5Robot::clearError([01;35m[Kconst dobot_bringup_srv::srv::ClearError::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::ClearError::Response::SharedPtr response)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::resetRobot(dobot_bringup_srv::srv::ResetRobot_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::ResetRobot_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:393:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  393 | bool CR5Robot::resetRobot([01;35m[Kconst dobot_bringup_srv::srv::ResetRobot::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::ResetRobot::Response::SharedPtr response)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::robotMode(dobot_bringup_srv::srv::RobotMode_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::RobotMode_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:463:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  463 | bool CR5Robot::robotMode([01;35m[Kconst dobot_bringup_srv::srv::RobotMode::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::RobotMode::Response::SharedPtr response)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::setArmOrientation(dobot_bringup_srv::srv::SetArmOrientation_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::SetArmOrientation_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:737:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Kdobot_bringup_srv::srv::SetArmOrientation_Request_<std::allocator<void> >::_lorr_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+  737 |         sprintf(cmd, "SetArmOrientation([01;35m[K%d[m[K,%d,%d,%d)", [32m[Krequest->lorr[m[K, request->uord, request->forn, request->config6);
+      |                                         [01;35m[K~^[m[K             [32m[K~~~~~~~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                      [32m[K|[m[K
+      |                                          [01;35m[Kint[m[K                    [32m[Kdobot_bringup_srv::srv::SetArmOrientation_Request_<std::allocator<void> >::_lorr_type {aka long int}[m[K
+      |                                         [32m[K%ld[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:737:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Kdobot_bringup_srv::srv::SetArmOrientation_Request_<std::allocator<void> >::_uord_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+  737 |         sprintf(cmd, "SetArmOrientation(%d,[01;35m[K%d[m[K,%d,%d)", request->lorr, [32m[Krequest->uord[m[K, request->forn, request->config6);
+      |                                            [01;35m[K~^[m[K                         [32m[K~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K                                  [32m[K|[m[K
+      |                                             [01;35m[Kint[m[K                                [32m[Kdobot_bringup_srv::srv::SetArmOrientation_Request_<std::allocator<void> >::_uord_type {aka long int}[m[K
+      |                                            [32m[K%ld[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:737:48:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdobot_bringup_srv::srv::SetArmOrientation_Request_<std::allocator<void> >::_forn_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+  737 |         sprintf(cmd, "SetArmOrientation(%d,%d,[01;35m[K%d[m[K,%d)", request->lorr, request->uord, [32m[Krequest->forn[m[K, request->config6);
+      |                                               [01;35m[K~^[m[K                                     [32m[K~~~~~~~~~~~~~[m[K
+      |                                                [01;35m[K|[m[K                                              [32m[K|[m[K
+      |                                                [01;35m[Kint[m[K                                            [32m[Kdobot_bringup_srv::srv::SetArmOrientation_Request_<std::allocator<void> >::_forn_type {aka long int}[m[K
+      |                                               [32m[K%ld[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:737:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdobot_bringup_srv::srv::SetArmOrientation_Request_<std::allocator<void> >::_config6_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+  737 |         sprintf(cmd, "SetArmOrientation(%d,%d,%d,[01;35m[K%d[m[K)", request->lorr, request->uord, request->forn, [32m[Krequest->config6[m[K);
+      |                                                  [01;35m[K~^[m[K                                                 [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                                   [01;35m[K|[m[K                                                          [32m[K|[m[K
+      |                                                   [01;35m[Kint[m[K                                                        [32m[Kdobot_bringup_srv::srv::SetArmOrientation_Request_<std::allocator<void> >::_config6_type {aka long int}[m[K
+      |                                                  [32m[K%ld[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::powerOn(dobot_bringup_srv::srv::PowerOn_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::PowerOn_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:750:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  750 | bool CR5Robot::powerOn([01;35m[Kconst dobot_bringup_srv::srv::PowerOn::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::PowerOn::Response::SharedPtr response)
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::stopScript(dobot_bringup_srv::srv::StopScript_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::StopScript_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:785:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  785 | bool CR5Robot::stopScript([01;35m[Kconst dobot_bringup_srv::srv::StopScript::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::StopScript::Response::SharedPtr response)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::pauseScript(dobot_bringup_srv::srv::PauseScript_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::PauseScript_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:802:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  802 | bool CR5Robot::pauseScript([01;35m[Kconst dobot_bringup_srv::srv::PauseScript::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::PauseScript::Response::SharedPtr response)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::continueScript(dobot_bringup_srv::srv::ContinueScript_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::ContinueScript_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:819:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  819 | bool CR5Robot::continueScript([01;35m[Kconst dobot_bringup_srv::srv::ContinueScript::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::ContinueScript::Response::SharedPtr response)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::emergencyStop(dobot_bringup_srv::srv::EmergencyStop_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::EmergencyStop_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:890:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  890 | bool CR5Robot::emergencyStop([01;35m[Kconst dobot_bringup_srv::srv::EmergencyStop::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::EmergencyStop::Response::SharedPtr response)
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:[m[K In member function ‘[01m[Kbool CR5Robot::sync(dobot_bringup_srv::srv::Sync_Request_<std::allocator<void> >::SharedPtr, dobot_bringup_srv::srv::Sync_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mwq/abs_news/src/dobot_bringup/src/cr5_robot.cpp:1090:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ 1090 | bool CR5Robot::sync([01;35m[Kconst dobot_bringup_srv::srv::Sync::Request::SharedPtr request[m[K, dobot_bringup_srv::srv::Sync::Response::SharedPtr response)
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable cr5_bringup[0m
+[100%] Built target cr5_bringup
+-- Install configuration: ""
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/lib/dobot_bringup/cr5_bringup
+-- Set runtime path of "/home/mwq/abs_news/install/dobot_bringup/lib/dobot_bringup/cr5_bringup" to ""
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup//launch
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup//launch/cr5_bringup_launch.py
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/environment/library_path.sh
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/environment/library_path.dsv
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/ament_index/resource_index/package_run_dependencies/dobot_bringup
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/ament_index/resource_index/parent_prefix_path/dobot_bringup
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/environment/path.sh
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/environment/path.dsv
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/local_setup.bash
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/local_setup.sh
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/local_setup.zsh
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/local_setup.dsv
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.dsv
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/ament_index/resource_index/packages/dobot_bringup
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/cmake/dobot_bringupConfig.cmake
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/cmake/dobot_bringupConfig-version.cmake
+-- Installing: /home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.xml

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/AO.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct AO_Request {
+      int32 index;
+
+      int32 status;
+    };
+    struct AO_Response {
+      int32 res;
+    };
+  };
+};

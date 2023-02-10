@@ -1,0 +1,8 @@
+[console_scripts]
+camera_intrin_info = cr3_scout_with_srvs.camera_intrin_info:main
+client = cr3_scout_with_srvs.cr3_service_clients:main
+scout = cr3_scout_with_srvs.scout:main
+scout_new = cr3_scout_with_srvs.newscout:main
+scout_with_zoom_camera = cr3_scout_with_srvs.scout_with_zoom_camera:main
+scout_with_zoom_camera_horiz = cr3_scout_with_srvs.scout_with_zoom_camera_horiz:main
+

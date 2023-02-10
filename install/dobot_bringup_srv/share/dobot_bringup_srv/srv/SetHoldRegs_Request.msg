@@ -1,0 +1,4 @@
+int32 id
+int32 addr
+int32 type
+int32[] regs

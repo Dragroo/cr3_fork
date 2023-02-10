@@ -1,0 +1,456 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.073s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe993c5e2e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe993c5e2e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe993c5e820>)
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.085s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mwq/abs_news'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr3_scout_with_srvs) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr3_scout_with_srvs) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr3_scout_with_srvs) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr3_scout_with_srvs) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr3_scout_with_srvs) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr3_scout_with_srvs) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr3_scout_with_srvs) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr3_scout_with_srvs) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr3_scout_with_srvs) by extension 'ros'
+[0.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cr3_scout_with_srvs' with type 'ros.ament_python' and name 'cr3_scout_with_srvs'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup) by extension 'ros'
+[0.095s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_bringup' with type 'ros.ament_cmake' and name 'dobot_bringup'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_msg) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_msg) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_msg) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_msg) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_msg) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_msg) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_msg) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_msg) by extension 'ros'
+[0.095s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_bringup_msg' with type 'ros.ament_cmake' and name 'dobot_bringup_msg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_srv) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_srv) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_srv) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_srv) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_srv) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_srv) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_srv) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_srv) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_bringup_srv) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_bringup_srv' with type 'ros.ament_cmake' and name 'dobot_bringup_srv'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/puber_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/puber_pkg) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/puber_pkg) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/puber_pkg) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/puber_pkg) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/puber_pkg) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/puber_pkg) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/puber_pkg) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/puber_pkg) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/puber_pkg' with type 'ros.ament_python' and name 'puber_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/suber_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/suber_pkg) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/suber_pkg) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/suber_pkg) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/suber_pkg) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/suber_pkg) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/suber_pkg) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/suber_pkg) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/suber_pkg) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/suber_pkg' with type 'ros.ament_python' and name 'suber_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.112s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 266 installed packages in /opt/ros/foxy
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.144s] Level 5:colcon.colcon_core.verb:set package 'cr3_scout_with_srvs' build argument 'cmake_args' from command line to 'None'
+[0.144s] Level 5:colcon.colcon_core.verb:set package 'cr3_scout_with_srvs' build argument 'cmake_target' from command line to 'None'
+[0.144s] Level 5:colcon.colcon_core.verb:set package 'cr3_scout_with_srvs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.144s] Level 5:colcon.colcon_core.verb:set package 'cr3_scout_with_srvs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.144s] Level 5:colcon.colcon_core.verb:set package 'cr3_scout_with_srvs' build argument 'cmake_clean_first' from command line to 'False'
+[0.144s] Level 5:colcon.colcon_core.verb:set package 'cr3_scout_with_srvs' build argument 'cmake_force_configure' from command line to 'False'
+[0.144s] Level 5:colcon.colcon_core.verb:set package 'cr3_scout_with_srvs' build argument 'ament_cmake_args' from command line to 'None'
+[0.144s] Level 5:colcon.colcon_core.verb:set package 'cr3_scout_with_srvs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.144s] Level 5:colcon.colcon_core.verb:set package 'cr3_scout_with_srvs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.144s] DEBUG:colcon.colcon_core.verb:Building package 'cr3_scout_with_srvs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mwq/abs_news/build/cr3_scout_with_srvs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mwq/abs_news/install/cr3_scout_with_srvs', 'merge_install': False, 'path': '/home/mwq/abs_news/src/cr3_scout_with_srvs', 'symlink_install': False, 'test_result_base': None}
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_msg' build argument 'cmake_args' from command line to 'None'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_msg' build argument 'cmake_target' from command line to 'None'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.145s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_bringup_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mwq/abs_news/build/dobot_bringup_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mwq/abs_news/install/dobot_bringup_msg', 'merge_install': False, 'path': '/home/mwq/abs_news/src/dobot_bringup_msg', 'symlink_install': False, 'test_result_base': None}
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_srv' build argument 'cmake_args' from command line to 'None'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_srv' build argument 'cmake_target' from command line to 'None'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_srv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_srv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_srv' build argument 'cmake_clean_first' from command line to 'False'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_srv' build argument 'cmake_force_configure' from command line to 'False'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_srv' build argument 'ament_cmake_args' from command line to 'None'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_srv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.145s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup_srv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.145s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_bringup_srv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mwq/abs_news/build/dobot_bringup_srv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mwq/abs_news/install/dobot_bringup_srv', 'merge_install': False, 'path': '/home/mwq/abs_news/src/dobot_bringup_srv', 'symlink_install': False, 'test_result_base': None}
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'puber_pkg' build argument 'cmake_args' from command line to 'None'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'puber_pkg' build argument 'cmake_target' from command line to 'None'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'puber_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'puber_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'puber_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'puber_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'puber_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'puber_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'puber_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.146s] DEBUG:colcon.colcon_core.verb:Building package 'puber_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mwq/abs_news/build/puber_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mwq/abs_news/install/puber_pkg', 'merge_install': False, 'path': '/home/mwq/abs_news/src/puber_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'suber_pkg' build argument 'cmake_args' from command line to 'None'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'suber_pkg' build argument 'cmake_target' from command line to 'None'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'suber_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'suber_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'suber_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'suber_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'suber_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'suber_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.146s] Level 5:colcon.colcon_core.verb:set package 'suber_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.146s] DEBUG:colcon.colcon_core.verb:Building package 'suber_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mwq/abs_news/build/suber_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mwq/abs_news/install/suber_pkg', 'merge_install': False, 'path': '/home/mwq/abs_news/src/suber_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'dobot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.147s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mwq/abs_news/build/dobot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mwq/abs_news/install/dobot_bringup', 'merge_install': False, 'path': '/home/mwq/abs_news/src/dobot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.147s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.149s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mwq/abs_news/src/dobot_bringup_msg' with build type 'ament_cmake'
+[0.149s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mwq/abs_news/src/dobot_bringup_msg'
+[0.151s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.154s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mwq/abs_news/src/dobot_bringup_srv' with build type 'ament_cmake'
+[0.155s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mwq/abs_news/src/dobot_bringup_srv'
+[0.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.158s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mwq/abs_news/src/cr3_scout_with_srvs' with build type 'ament_python'
+[0.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr3_scout_with_srvs', 'ament_prefix_path')
+[0.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/hook/ament_prefix_path.ps1'
+[0.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/hook/ament_prefix_path.dsv'
+[0.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/hook/ament_prefix_path.sh'
+[0.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.163s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mwq/abs_news/src/puber_pkg' with build type 'ament_python'
+[0.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('puber_pkg', 'ament_prefix_path')
+[0.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/hook/ament_prefix_path.ps1'
+[0.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/hook/ament_prefix_path.dsv'
+[0.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/hook/ament_prefix_path.sh'
+[0.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.168s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mwq/abs_news/src/suber_pkg' with build type 'ament_python'
+[0.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('suber_pkg', 'ament_prefix_path')
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/hook/ament_prefix_path.ps1'
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/hook/ament_prefix_path.dsv'
+[0.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/hook/ament_prefix_path.sh'
+[0.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/build/dobot_bringup_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mwq/abs_news/src/dobot_bringup_msg -DCMAKE_INSTALL_PREFIX=/home/mwq/abs_news/install/dobot_bringup_msg
+[0.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/build/dobot_bringup_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mwq/abs_news/src/dobot_bringup_srv -DCMAKE_INSTALL_PREFIX=/home/mwq/abs_news/install/dobot_bringup_srv
+[0.290s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mwq/abs_news/src/cr3_scout_with_srvs'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.401s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mwq/abs_news/src/puber_pkg'
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.519s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mwq/abs_news/src/suber_pkg'
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/src/cr3_scout_with_srvs': PYTHONPATH=/home/mwq/abs_news/build/cr3_scout_with_srvs/prefix_override:/home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cr3_scout_with_srvs build --build-base /home/mwq/abs_news/build/cr3_scout_with_srvs/build install --record /home/mwq/abs_news/build/cr3_scout_with_srvs/install.log --install-scripts $base/lib/cr3_scout_with_srvs --single-version-externally-managed
+[0.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/src/puber_pkg': PYTHONPATH=/home/mwq/abs_news/build/puber_pkg/prefix_override:/home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/puber_pkg build --build-base /home/mwq/abs_news/build/puber_pkg/build install --record /home/mwq/abs_news/build/puber_pkg/install.log --install-scripts $base/lib/puber_pkg --single-version-externally-managed
+[0.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/src/suber_pkg': PYTHONPATH=/home/mwq/abs_news/build/suber_pkg/prefix_override:/home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suber_pkg build --build-base /home/mwq/abs_news/build/suber_pkg/build install --record /home/mwq/abs_news/build/suber_pkg/install.log --install-scripts $base/lib/suber_pkg --single-version-externally-managed
+[0.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/src/cr3_scout_with_srvs' returned '0': PYTHONPATH=/home/mwq/abs_news/build/cr3_scout_with_srvs/prefix_override:/home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cr3_scout_with_srvs build --build-base /home/mwq/abs_news/build/cr3_scout_with_srvs/build install --record /home/mwq/abs_news/build/cr3_scout_with_srvs/install.log --install-scripts $base/lib/cr3_scout_with_srvs --single-version-externally-managed
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/cr3_scout_with_srvs' for CMake module files
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/cr3_scout_with_srvs' for CMake config files
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/cr3_scout_with_srvs/lib'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/cr3_scout_with_srvs/bin'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/cr3_scout_with_srvs/lib/pkgconfig/cr3_scout_with_srvs.pc'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages'
+[0.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr3_scout_with_srvs', 'pythonpath')
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/hook/pythonpath.ps1'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/hook/pythonpath.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/hook/pythonpath.sh'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/cr3_scout_with_srvs/bin'
+[0.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr3_scout_with_srvs)
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/package.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/package.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/package.sh'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/package.bash'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/package.zsh'
+[0.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mwq/abs_news/install/cr3_scout_with_srvs/share/colcon-core/packages/cr3_scout_with_srvs)
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/suber_pkg' for CMake module files
+[0.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/src/suber_pkg' returned '0': PYTHONPATH=/home/mwq/abs_news/build/suber_pkg/prefix_override:/home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suber_pkg build --build-base /home/mwq/abs_news/build/suber_pkg/build install --record /home/mwq/abs_news/build/suber_pkg/install.log --install-scripts $base/lib/suber_pkg --single-version-externally-managed
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/suber_pkg' for CMake config files
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/suber_pkg/lib'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/suber_pkg/bin'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/suber_pkg/lib/pkgconfig/suber_pkg.pc'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/suber_pkg/lib/python3.8/site-packages'
+[0.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('suber_pkg', 'pythonpath')
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/hook/pythonpath.ps1'
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/hook/pythonpath.dsv'
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/hook/pythonpath.sh'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/suber_pkg/bin'
+[0.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suber_pkg)
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/package.ps1'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/package.dsv'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/package.sh'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/package.bash'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/suber_pkg/share/suber_pkg/package.zsh'
+[0.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mwq/abs_news/install/suber_pkg/share/colcon-core/packages/suber_pkg)
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/puber_pkg' for CMake module files
+[0.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/src/puber_pkg' returned '0': PYTHONPATH=/home/mwq/abs_news/build/puber_pkg/prefix_override:/home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/puber_pkg build --build-base /home/mwq/abs_news/build/puber_pkg/build install --record /home/mwq/abs_news/build/puber_pkg/install.log --install-scripts $base/lib/puber_pkg --single-version-externally-managed
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/puber_pkg' for CMake config files
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/puber_pkg/lib'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/puber_pkg/bin'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/puber_pkg/lib/pkgconfig/puber_pkg.pc'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages'
+[0.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('puber_pkg', 'pythonpath')
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/hook/pythonpath.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/hook/pythonpath.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/hook/pythonpath.sh'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/puber_pkg/bin'
+[0.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(puber_pkg)
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/package.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/package.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/package.sh'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/package.bash'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/puber_pkg/share/puber_pkg/package.zsh'
+[0.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mwq/abs_news/install/puber_pkg/share/colcon-core/packages/puber_pkg)
+[1.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/build/dobot_bringup_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mwq/abs_news/src/dobot_bringup_msg -DCMAKE_INSTALL_PREFIX=/home/mwq/abs_news/install/dobot_bringup_msg
+[1.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/build/dobot_bringup_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mwq/abs_news/build/dobot_bringup_msg -- -j20 -l20
+[1.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/build/dobot_bringup_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mwq/abs_news/src/dobot_bringup_srv -DCMAKE_INSTALL_PREFIX=/home/mwq/abs_news/install/dobot_bringup_srv
+[1.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/build/dobot_bringup_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mwq/abs_news/build/dobot_bringup_srv -- -j20 -l20
+[2.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/build/dobot_bringup_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mwq/abs_news/build/dobot_bringup_msg -- -j20 -l20
+[2.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/build/dobot_bringup_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mwq/abs_news/build/dobot_bringup_msg
+[2.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_bringup_msg)
+[2.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/build/dobot_bringup_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mwq/abs_news/build/dobot_bringup_msg
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg' for CMake module files
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg' for CMake config files
+[2.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_msg', 'cmake_prefix_path')
+[2.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/cmake_prefix_path.ps1'
+[2.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/cmake_prefix_path.dsv'
+[2.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/cmake_prefix_path.sh'
+[2.681s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/lib'
+[2.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_msg', 'ld_library_path_lib')
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/ld_library_path_lib.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/ld_library_path_lib.dsv'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/ld_library_path_lib.sh'
+[2.683s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/bin'
+[2.683s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/lib/pkgconfig/dobot_bringup_msg.pc'
+[2.683s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages'
+[2.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_msg', 'pythonpath')
+[2.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/pythonpath.ps1'
+[2.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/pythonpath.dsv'
+[2.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/pythonpath.sh'
+[2.684s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/bin'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.ps1'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.dsv'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.sh'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.bash'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.zsh'
+[2.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mwq/abs_news/install/dobot_bringup_msg/share/colcon-core/packages/dobot_bringup_msg)
+[2.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_bringup_msg)
+[2.719s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg' for CMake module files
+[2.719s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg' for CMake config files
+[2.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_msg', 'cmake_prefix_path')
+[2.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/cmake_prefix_path.ps1'
+[2.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/cmake_prefix_path.dsv'
+[2.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/cmake_prefix_path.sh'
+[2.721s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/lib'
+[2.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_msg', 'ld_library_path_lib')
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/ld_library_path_lib.ps1'
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/ld_library_path_lib.dsv'
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/ld_library_path_lib.sh'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/bin'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/lib/pkgconfig/dobot_bringup_msg.pc'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages'
+[2.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_msg', 'pythonpath')
+[2.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/pythonpath.ps1'
+[2.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/pythonpath.dsv'
+[2.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/hook/pythonpath.sh'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_msg/bin'
+[2.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.ps1'
+[2.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.dsv'
+[2.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.sh'
+[2.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.bash'
+[2.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_msg/share/dobot_bringup_msg/package.zsh'
+[2.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mwq/abs_news/install/dobot_bringup_msg/share/colcon-core/packages/dobot_bringup_msg)
+[13.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/build/dobot_bringup_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mwq/abs_news/build/dobot_bringup_srv -- -j20 -l20
+[14.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/build/dobot_bringup_srv': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mwq/abs_news/build/dobot_bringup_srv
+[14.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_bringup_srv)
+[14.337s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv' for CMake module files
+[14.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/build/dobot_bringup_srv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mwq/abs_news/build/dobot_bringup_srv
+[14.337s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv' for CMake config files
+[14.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_srv', 'cmake_prefix_path')
+[14.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/cmake_prefix_path.ps1'
+[14.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/cmake_prefix_path.dsv'
+[14.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/cmake_prefix_path.sh'
+[14.339s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/lib'
+[14.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_srv', 'ld_library_path_lib')
+[14.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/ld_library_path_lib.ps1'
+[14.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/ld_library_path_lib.dsv'
+[14.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/ld_library_path_lib.sh'
+[14.340s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/bin'
+[14.340s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/lib/pkgconfig/dobot_bringup_srv.pc'
+[14.340s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages'
+[14.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_srv', 'pythonpath')
+[14.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/pythonpath.ps1'
+[14.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/pythonpath.dsv'
+[14.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/pythonpath.sh'
+[14.341s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/bin'
+[14.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.ps1'
+[14.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.dsv'
+[14.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.sh'
+[14.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.bash'
+[14.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.zsh'
+[14.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mwq/abs_news/install/dobot_bringup_srv/share/colcon-core/packages/dobot_bringup_srv)
+[14.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_bringup_srv)
+[14.653s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv' for CMake module files
+[14.654s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv' for CMake config files
+[14.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_srv', 'cmake_prefix_path')
+[14.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/cmake_prefix_path.ps1'
+[14.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/cmake_prefix_path.dsv'
+[14.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/cmake_prefix_path.sh'
+[14.655s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/lib'
+[14.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_srv', 'ld_library_path_lib')
+[14.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/ld_library_path_lib.ps1'
+[14.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/ld_library_path_lib.dsv'
+[14.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/ld_library_path_lib.sh'
+[14.657s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/bin'
+[14.657s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/lib/pkgconfig/dobot_bringup_srv.pc'
+[14.657s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages'
+[14.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup_srv', 'pythonpath')
+[14.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/pythonpath.ps1'
+[14.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/pythonpath.dsv'
+[14.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/hook/pythonpath.sh'
+[14.659s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup_srv/bin'
+[14.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.ps1'
+[14.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.dsv'
+[14.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.sh'
+[14.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.bash'
+[14.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup_srv/share/dobot_bringup_srv/package.zsh'
+[14.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mwq/abs_news/install/dobot_bringup_srv/share/colcon-core/packages/dobot_bringup_srv)
+[14.661s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mwq/abs_news/src/dobot_bringup' with build type 'ament_cmake'
+[14.661s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mwq/abs_news/src/dobot_bringup'
+[14.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/build/dobot_bringup': AMENT_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:/opt/ros/foxy LD_LIBRARY_PATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib:/home/mwq/abs_news/install/dobot_bringup_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages:/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mwq/abs_news/src/dobot_bringup -DCMAKE_INSTALL_PREFIX=/home/mwq/abs_news/install/dobot_bringup
+[16.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/build/dobot_bringup' returned '0': AMENT_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:/opt/ros/foxy LD_LIBRARY_PATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib:/home/mwq/abs_news/install/dobot_bringup_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages:/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mwq/abs_news/src/dobot_bringup -DCMAKE_INSTALL_PREFIX=/home/mwq/abs_news/install/dobot_bringup
+[16.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/build/dobot_bringup': AMENT_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:/opt/ros/foxy LD_LIBRARY_PATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib:/home/mwq/abs_news/install/dobot_bringup_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages:/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mwq/abs_news/build/dobot_bringup -- -j20 -l20
+[26.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/build/dobot_bringup' returned '0': AMENT_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:/opt/ros/foxy LD_LIBRARY_PATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib:/home/mwq/abs_news/install/dobot_bringup_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages:/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mwq/abs_news/build/dobot_bringup -- -j20 -l20
+[26.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mwq/abs_news/build/dobot_bringup': AMENT_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:/opt/ros/foxy LD_LIBRARY_PATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib:/home/mwq/abs_news/install/dobot_bringup_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages:/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mwq/abs_news/build/dobot_bringup
+[26.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_bringup)
+[26.214s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup' for CMake module files
+[26.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mwq/abs_news/build/dobot_bringup' returned '0': AMENT_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mwq/abs_news/install/dobot_bringup_srv:/home/mwq/abs_news/install/dobot_bringup_msg:/opt/ros/foxy LD_LIBRARY_PATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib:/home/mwq/abs_news/install/dobot_bringup_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages:/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mwq/abs_news/build/dobot_bringup
+[26.214s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup' for CMake config files
+[26.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup', 'cmake_prefix_path')
+[26.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/hook/cmake_prefix_path.ps1'
+[26.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/hook/cmake_prefix_path.dsv'
+[26.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/hook/cmake_prefix_path.sh'
+[26.216s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/lib'
+[26.216s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/bin'
+[26.216s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/lib/pkgconfig/dobot_bringup.pc'
+[26.216s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/lib/python3.8/site-packages'
+[26.216s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/bin'
+[26.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.ps1'
+[26.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.dsv'
+[26.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.sh'
+[26.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.bash'
+[26.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.zsh'
+[26.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mwq/abs_news/install/dobot_bringup/share/colcon-core/packages/dobot_bringup)
+[26.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_bringup)
+[26.241s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup' for CMake module files
+[26.242s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup' for CMake config files
+[26.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_bringup', 'cmake_prefix_path')
+[26.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/hook/cmake_prefix_path.ps1'
+[26.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/hook/cmake_prefix_path.dsv'
+[26.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/hook/cmake_prefix_path.sh'
+[26.245s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/lib'
+[26.245s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/bin'
+[26.246s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/lib/pkgconfig/dobot_bringup.pc'
+[26.246s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/lib/python3.8/site-packages'
+[26.246s] Level 1:colcon.colcon_core.environment:checking '/home/mwq/abs_news/install/dobot_bringup/bin'
+[26.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.ps1'
+[26.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.dsv'
+[26.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.sh'
+[26.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.bash'
+[26.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/mwq/abs_news/install/dobot_bringup/share/dobot_bringup/package.zsh'
+[26.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mwq/abs_news/install/dobot_bringup/share/colcon-core/packages/dobot_bringup)
+[26.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.251s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.259s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.278s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mwq/abs_news/install/local_setup.ps1'
+[26.280s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mwq/abs_news/install/_local_setup_util_ps1.py'
+[26.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mwq/abs_news/install/setup.ps1'
+[26.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mwq/abs_news/install/local_setup.sh'
+[26.282s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mwq/abs_news/install/_local_setup_util_sh.py'
+[26.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mwq/abs_news/install/setup.sh'
+[26.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mwq/abs_news/install/local_setup.bash'
+[26.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mwq/abs_news/install/setup.bash'
+[26.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mwq/abs_news/install/local_setup.zsh'
+[26.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mwq/abs_news/install/setup.zsh'

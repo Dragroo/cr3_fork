@@ -1,0 +1,69 @@
+running egg_info
+creating ../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info
+writing ../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info/PKG-INFO
+writing dependency_links to ../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info/dependency_links.txt
+writing entry points to ../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info/entry_points.txt
+writing requirements to ../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info/requires.txt
+writing top-level names to ../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info/top_level.txt
+writing manifest file '../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info/SOURCES.txt'
+reading manifest file '../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info/SOURCES.txt'
+writing manifest file '../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mwq/abs_news/build/cr3_scout_with_srvs/build
+creating /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib
+creating /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+copying cr3_scout_with_srvs/newscout.py -> /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+copying cr3_scout_with_srvs/__init__.py -> /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+copying cr3_scout_with_srvs/camera_intrin_info.py -> /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+copying cr3_scout_with_srvs/scout_with_zoom_camera_horiz.py -> /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+copying cr3_scout_with_srvs/scout.py -> /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+copying cr3_scout_with_srvs/pelco_cam.py -> /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+copying cr3_scout_with_srvs/pelco_cam_cmd_structs.py -> /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+copying cr3_scout_with_srvs/scout_with_zoom_camera.py -> /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+copying cr3_scout_with_srvs/cr3_service_clients.py -> /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs
+running install
+running install_lib
+creating /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+copying /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs/newscout.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+copying /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs/__init__.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+copying /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs/camera_intrin_info.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+copying /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs/scout_with_zoom_camera_horiz.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+copying /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs/scout.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+copying /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs/pelco_cam.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+copying /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs/pelco_cam_cmd_structs.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+copying /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs/scout_with_zoom_camera.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+copying /home/mwq/abs_news/build/cr3_scout_with_srvs/build/lib/cr3_scout_with_srvs/cr3_service_clients.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs
+byte-compiling /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs/newscout.py to newscout.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs/camera_intrin_info.py to camera_intrin_info.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs/scout_with_zoom_camera_horiz.py to scout_with_zoom_camera_horiz.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs/scout.py to scout.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs/pelco_cam.py to pelco_cam.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs/pelco_cam_cmd_structs.py to pelco_cam_cmd_structs.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs/scout_with_zoom_camera.py to scout_with_zoom_camera.cpython-38.pyc
+byte-compiling /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs/cr3_service_clients.py to cr3_service_clients.cpython-38.pyc
+running install_data
+creating /home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/launch
+copying launch/scout_with_zoom_camera_horiz_launch.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/launch
+copying launch/scout_launch.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/launch
+copying launch/cam_info_fake_pub_launch.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/launch
+copying launch/camera_intrin_info_launch.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/launch
+copying launch/scout_with_zoom_camera_launch.py -> /home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/launch
+creating /home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/config
+copying config/cam_info.yaml -> /home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs/config
+creating /home/mwq/abs_news/install/cr3_scout_with_srvs/share/ament_index
+creating /home/mwq/abs_news/install/cr3_scout_with_srvs/share/ament_index/resource_index
+creating /home/mwq/abs_news/install/cr3_scout_with_srvs/share/ament_index/resource_index/packages
+copying resource/cr3_scout_with_srvs -> /home/mwq/abs_news/install/cr3_scout_with_srvs/share/ament_index/resource_index/packages
+copying package.xml -> /home/mwq/abs_news/install/cr3_scout_with_srvs/share/cr3_scout_with_srvs
+running install_egg_info
+Copying ../../build/cr3_scout_with_srvs/cr3_scout_with_srvs.egg-info to /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages/cr3_scout_with_srvs-0.0.0-py3.8.egg-info
+running install_scripts
+Installing camera_intrin_info script to /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/cr3_scout_with_srvs
+Installing client script to /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/cr3_scout_with_srvs
+Installing scout script to /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/cr3_scout_with_srvs
+Installing scout_new script to /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/cr3_scout_with_srvs
+Installing scout_with_zoom_camera script to /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/cr3_scout_with_srvs
+Installing scout_with_zoom_camera_horiz script to /home/mwq/abs_news/install/cr3_scout_with_srvs/lib/cr3_scout_with_srvs
+writing list of installed files to '/home/mwq/abs_news/build/cr3_scout_with_srvs/install.log'

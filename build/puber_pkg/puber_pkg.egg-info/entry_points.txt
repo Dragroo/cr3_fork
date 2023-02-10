@@ -1,0 +1,4 @@
+[console_scripts]
+outmatrix_puber = puber_pkg.outmatrix_puber:main
+uv_puber = puber_pkg.uv_puber:main
+

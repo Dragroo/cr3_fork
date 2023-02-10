@@ -1,0 +1,7 @@
+{
+  "package_name": "dobot_bringup_msg",
+  "non_idl_tuples": [
+    "/home/mwq/abs_news/src/dobot_bringup_msg:msg/RobotStatus.msg",
+    "/home/mwq/abs_news/src/dobot_bringup_msg:msg/ToolVectorActual.msg"
+  ]
+}

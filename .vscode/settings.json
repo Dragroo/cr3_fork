@@ -1,0 +1,24 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages",
+    "/home/mwq/opendoor_ws/install/tf2yaml/lib/python3.8/site-packages",
+    "/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages",
+    "/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages",
+    "/home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages",
+    "./install/my_interfaces/lib/python3.8/site-packages",
+    "/opt/ros/foxy/lib/python3.8/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/mwq/abs_news/install/puber_pkg/lib/python3.8/site-packages",
+    "/home/mwq/opendoor_ws/install/tf2yaml/lib/python3.8/site-packages",
+    "/home/mwq/abs_news/install/dobot_bringup_srv/lib/python3.8/site-packages",
+    "/home/mwq/abs_news/install/dobot_bringup_msg/lib/python3.8/site-packages",
+    "/home/mwq/abs_news/install/cr3_scout_with_srvs/lib/python3.8/site-packages",
+    "./install/my_interfaces/lib/python3.8/site-packages",
+    "/opt/ros/foxy/lib/python3.8/site-packages"
+  ],
+  "files.associations": {
+    "dense": "cpp",
+    "functional": "cpp"
+  }
+}

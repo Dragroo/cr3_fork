@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_bringup_srv/srv/StartPath.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_bringup_srv {
+  module srv {
+    struct StartPath_Request {
+      string trace_name;
+
+      int32 const_val;
+
+      int32 cart;
+    };
+    struct StartPath_Response {
+      int32 res;
+    };
+  };
+};
