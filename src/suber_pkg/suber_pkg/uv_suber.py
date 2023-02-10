@@ -9,7 +9,7 @@ from std_msgs.msg import String                  # ROS2标准定义的String消�
 import numpy as np
 from my_interfaces.msg import Myuv
 """
-创建一个订阅者节点
+创建一个订阅者节点，测试
 """
 class SubscriberNode(Node):
     
